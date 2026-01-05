@@ -13,7 +13,7 @@ const ResultCard = ({ item }) => {
 
   return (
     <div className='relative'>
-      <a target='_blank' className='w-full h-full' href={item.url}>
+      <a target='_blank' className='w-full h-full' href={item.url} >
         <div className=' w-full h-75 rounded-lg overflow-hidden'>
           {item.type === "photo" ? < img src={item.src} alt="images" className='w-full h-full object-cover overflow-auto rounded-lg' /> : ""}
           {item.type === "videos" ? <video className='h-full w-full object-cover object-center' autoPlay loop muted src={item.src}> </video> : ""}

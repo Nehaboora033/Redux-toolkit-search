@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link to="/"  className='rounded-md bg-(--c4) text-(--c1) px-4 py-2 text-[18px] active:scale-95'>
           Search
         </Link>
-        <Link to="/collection" className='rounded-sm bg-white text-(--c1) px-4 py-2 text-[18px] active:scale-95'>
+        <Link to="/collection" className='rounded-md bg-white text-(--c1) px-4 py-2 text-[18px] active:scale-95'>
           Collection
         </Link>
       </div>
